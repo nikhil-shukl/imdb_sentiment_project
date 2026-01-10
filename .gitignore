@@ -1,11 +1,28 @@
+# VSCode
+.vscode/
+
 # Python cache
 __pycache__/
 *.pyc
 
-# VS Code
-.vscode/
+# Jupyter checkpoints
+.ipynb_checkpoints/
 
-# Virtual Environments
+# Virtual env
+env/
 venv/
-testingopenai/
-.env
+.venv/
+*.env
+
+# Model files
+*.keras
+*.h5
+*.pkl
+*.pt
+*.onnx
+
+# Zip and large archives
+*.zip
+
+# Logs
+*.log
